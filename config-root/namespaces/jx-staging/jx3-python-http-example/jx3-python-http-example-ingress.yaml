@@ -19,4 +19,4 @@ spec:
                 name: jx3-python-http-example
                 port:
                   number: 80
-      host: jx3-python-http-example-jx-staging.192.168.49.2.nip.io
+      host: jx3-python-http-example-jx-staging.27f3-171-244-84-148.ngrok.io

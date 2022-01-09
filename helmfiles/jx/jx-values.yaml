@@ -38,7 +38,7 @@ jxRequirements:
   - key: staging
   - key: production
   ingress:
-    domain: 192.168.49.2.nip.io
+    domain: 27f3-171-244-84-148.ngrok.io
     kind: ingress
     namespaceSubDomain: -jx.
     tls:

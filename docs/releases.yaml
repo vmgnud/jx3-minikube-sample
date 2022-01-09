@@ -63,7 +63,7 @@
     version: 0.1.67
   - apiVersion: v1
     appVersion: 2.7.1
-    applicationUrl: http://docker-registry-jx.192.168.49.2.nip.io/
+    applicationUrl: http://docker-registry-jx.27f3-171-244-84-148.ngrok.io/
     deprecated: true
     description: DEPRECATED A Helm chart for Docker Registry
     firstDeployed: "2022-01-09T13:05:08Z"
@@ -71,7 +71,7 @@
     icon: https://hub.docker.com/public/images/logos/mini-logo.svg
     ingresses:
     - name: docker-registry
-      url: http://docker-registry-jx.192.168.49.2.nip.io/
+      url: http://docker-registry-jx.27f3-171-244-84-148.ngrok.io/
     lastDeployed: "2022-01-09T13:05:08Z"
     name: docker-registry
     repositoryName: stable

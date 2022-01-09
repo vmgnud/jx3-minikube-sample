@@ -14,7 +14,7 @@ metadata:
   namespace: jx
 spec:
   rules:
-    - host: docker-registry-jx.192.168.49.2.nip.io
+    - host: docker-registry-jx.27f3-171-244-84-148.ngrok.io
       http:
         paths:
           - path: /
