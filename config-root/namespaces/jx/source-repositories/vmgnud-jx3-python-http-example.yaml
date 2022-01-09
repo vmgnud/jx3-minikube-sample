@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: vmgnud
+    provider: github
+    repository: jx3-python-http-example
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: vmgnud-jx3-python-http-example
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/vmgnud/jx3-python-http-example.git
+  org: vmgnud
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx3-python-http-example
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/vmgnud/jx3-python-http-example

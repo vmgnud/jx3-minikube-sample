@@ -6,6 +6,10 @@ data:
       repos:
       - vmgnud/jx3-minikube-sample
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vmgnud/jx3-python-http-example
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -21,6 +25,11 @@ data:
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
+      vmgnud/jx3-python-http-example:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
     heart: {}
     label:
       additional_labels: null
@@ -28,6 +37,22 @@ data:
     plugins:
       vmgnud/jx3-minikube-sample:
       - config-updater
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vmgnud/jx3-python-http-example:
       - approve
       - assign
       - blunderbuss
@@ -55,6 +80,11 @@ data:
     - repos:
       - vmgnud/jx3-minikube-sample
       trusted_org: todo
+    - repos:
+      - vmgnud/jx3-python-http-example
+      trusted_org: todo
+    welcome:
+    - message_template: Welcome
 kind: ConfigMap
 metadata:
   creationTimestamp: null
