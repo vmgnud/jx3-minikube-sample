@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: jx3-python-http-example
   labels:
-    chart: "jx3-python-http-example-0.0.2"
+    chart: "jx3-python-http-example-0.0.4"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
     meta.helm.sh/release-name: 'jx3-python-http-example'
