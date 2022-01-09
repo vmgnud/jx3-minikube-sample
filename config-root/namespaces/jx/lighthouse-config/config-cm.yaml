@@ -45,7 +45,7 @@ data:
         repos:
         - vmgnud/jx3-minikube-sample
         - vmgnud/jx3-python-http-example
-      target_url: http://lighthouse-jx.27f3-171-244-84-148.ngrok.io/merge/status
+      target_url: http://lighthouse-jx.192.168.49.2.nip.io/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null

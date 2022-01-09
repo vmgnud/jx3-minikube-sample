@@ -47,7 +47,7 @@
     <tr>
 	      <td><a href='https://hub.docker.com/_/registry/' title='DEPRECATED A Helm chart for Docker Registry'> <img src='https://hub.docker.com/public/images/logos/mini-logo.svg' width='24px' height='24px'> docker-registry </a></td>
 	      <td></td>
-	      <td><a href='http://docker-registry-jx.27f3-171-244-84-148.ngrok.io/'>view</a></td>
+	      <td><a href='http://docker-registry-jx.192.168.49.2.nip.io/'>view</a></td>
 	      <td><a href='https://hub.docker.com/_/registry/'>source</a></td>
 	    </tr>
     <tr>
