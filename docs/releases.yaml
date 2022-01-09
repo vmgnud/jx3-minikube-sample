@@ -115,13 +115,13 @@
   path: helmfiles/jx-staging/helmfile.yaml
   releases:
   - apiVersion: v1
-    appVersion: 0.0.2
+    appVersion: 0.0.4
     description: A Helm chart for Kubernetes
-    firstDeployed: "2022-01-09T14:41:47Z"
+    firstDeployed: "2022-01-09T16:32:26Z"
     icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
-    lastDeployed: "2022-01-09T14:41:47Z"
+    lastDeployed: "2022-01-09T16:32:26Z"
     name: jx3-python-http-example
     repositoryName: dev
     repositoryUrl: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts/
     resourcePath: config-root/namespaces/jx-staging/jx3-python-http-example
-    version: 0.0.2
+    version: 0.0.4
