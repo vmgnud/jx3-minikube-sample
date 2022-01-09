@@ -1,0 +1,10 @@
+# Source: jx3-python-http-example/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: jx3-python-http-example-jx3-python-http-example
+  annotations:
+    meta.helm.sh/release-name: 'jx3-python-http-example'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'

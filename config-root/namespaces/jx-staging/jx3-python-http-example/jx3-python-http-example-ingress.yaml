@@ -1,0 +1,22 @@
+# Source: jx3-python-http-example/templates/ingress.yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    meta.helm.sh/release-name: 'jx3-python-http-example'
+  name: jx3-python-http-example
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  rules:
+    - http:
+        paths:
+          - pathType: ImplementationSpecific
+            backend:
+              service:
+                name: jx3-python-http-example
+                port:
+                  number: 80
+      host: jx3-python-http-example-jx-staging.192.168.49.2.nip.io
