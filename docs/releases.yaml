@@ -111,3 +111,17 @@
     repositoryUrl: https://cdfoundation.github.io/tekton-helm-chart
     resourcePath: config-root/namespaces/tekton-pipelines/tekton-pipeline
     version: 0.27.2
+- namespace: jx-production
+  path: helmfiles/jx-production/helmfile.yaml
+  releases:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    description: A Helm chart for Kubernetes
+    firstDeployed: "2022-01-09T14:10:58Z"
+    icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
+    lastDeployed: "2022-01-09T14:10:58Z"
+    name: jx3-python-http-example
+    repositoryName: dev
+    repositoryUrl: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts/
+    resourcePath: config-root/namespaces/jx-production/jx3-python-http-example
+    version: 0.0.1
